@@ -17,9 +17,9 @@ spec:
           image: "crk8sdecbootcamppa4ccr22z5d7y.azurecr.io/aksk8sdecbootcamp"
           ports:
           - containerPort: 80
-        env:
-        - name: REDIS
-          value: "azure-vote-back"
+          env:
+          - name: REDIS
+            value: "azure-vote-back"
 ---
 apiVersion: apps/v1
 kind: Deployment
